@@ -62,6 +62,7 @@ class App extends React.Component {
     this.setState(prevState => ({
       cards: prevState.cards.concat(cardInfo)
     }))
+    console.log(this.state.cards);
   }
   
   render(){
